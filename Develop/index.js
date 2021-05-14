@@ -3,13 +3,14 @@ const inquirer =  require('inquirer');
 const fs = require('fs');
 const Choice = require('inquirer/lib/objects/choice');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const path = require('path');
 // TODO: Create an array of questions for user input
 const questions = [ 
     
         {
             type: 'input',
             name: 'title',
-            message: "What is your projects name?",
+            message: "What is your projects name? (Required)",
             validate: nameInput => {
                 if (nameInput) {
                   return true;
@@ -46,9 +47,9 @@ const questions = [
         }, 
         {
             type: 'checkbox',
-            name: 'badge',
+            name: 'license',
             message: 'Please select a license.',
-            choices: ['MIT', 'GNU']
+            choices: ['MIT', 'GNU GPL v3', 'Apache', 'WTFPL']
         }, 
         {
             type:'input',
