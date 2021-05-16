@@ -5,6 +5,7 @@ Student: Dylan Trecker</br>
 Description: A Node JS powered ReadMe generator.</br>
 Full Repository: https://github.com/d-trecker/readme-rainbows.git</br>
 Get the repository by: $ git clone git@github.com:d-trecker/readme-rainbows.git </br>
+Video Link: https://drive.google.com/file/d/1HhxCNaN4IafeKi8GlHe6L5P1Jz4wbM6x/view?usp=sharing <\br>
 
 User Story </br>
 AS A developer
