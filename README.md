@@ -1,6 +1,4 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](./readme-guide.md)
+# Professional README Generator
 
 Title: ReadMe Rainbows</br>
 Student: Dylan Trecker</br>
